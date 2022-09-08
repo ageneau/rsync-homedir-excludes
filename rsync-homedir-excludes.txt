@@ -17,8 +17,8 @@
 
 #.android
 #.AndroidStudio*/
-#Android/Sdk
-#.gradle
+Android/Sdk
+.gradle
 #.gvm
 #.grails/
 #.grails_history
@@ -77,7 +77,7 @@
 #PycharmProjects/**/venv
 #
 ## Maven local repository
-#/.m2
+/.m2/repository
 #
 ## Unlocked Plasma Vaults
 #/Vaults
@@ -423,4 +423,8 @@ go/pkg/mod/cache
 .var/app/**/CachedData
 .var/app/**/Code Cache
 .var/app/**/GPUCache
+
+
+/emacs/distributions/spacemacs/.emacs.d/elpa
+/snap/firefox/common/.cache
 
